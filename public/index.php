@@ -13,7 +13,7 @@ $app = $env['APP_NAME'] ?? '(APP_NAME belum diisi)';
 
 <body>
     <h1>Halo dari <?= htmlspecialchars($app) ?></h1>
-    <p>Versi aplikasi: v4</p>
+    <p>Versi aplikasi: v5</p>
     <p>Versi PHP: <?= PHP_VERSION ?></p>
     <p>Waktu server: <?= date('d-m-Y H:i:s') ?></p>
 </body>
