@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/efrilnsw/deploy-demo.fikry.my.id/public
-    - /bin/cp -R public/* $DEPLOYPATH/public/
+    - /bin/cp -R public/. $DEPLOYPATH/public/
