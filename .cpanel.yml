@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/efrilnsw/deploy-demo
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R public $DEPLOYPATH/
